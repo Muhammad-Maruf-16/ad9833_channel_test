@@ -1,0 +1,55 @@
+# ==============================================================================
+# STM32CubeIDE / Eclipse Gitignore
+# ==============================================================================
+
+# Build Output Directories
+/Debug/
+/Release/
+
+# Compiled Object & Dependency Files
+*.o
+*.obj
+*.d
+*.su
+
+# Firmware Binary & Map Files
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.srec
+*.axf
+
+# Eclipse & CubeIDE Workspace / Metadata
+.metadata/
+.recommenders/
+.externalToolBuilders/
+*.launch.tmp
+
+# Language / Scanner discovery cache (optional, enable if personal paths leak)
+# .settings/language.settings.xml
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors & IDEs (VS Code, CLion, etc.)
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# ==============================================================================
+# NOTE: DO NOT IGNORE the following essential project files:
+# - .project, .cproject, .mxproject (required by STM32CubeIDE to open the project)
+# - *.ioc (STM32CubeMX hardware & pin configuration)
+# - *.ld (Linker script)
+# - *.launch (ST-Link / J-Link debug configuration, keep if sharing config)
+# ==============================================================================
